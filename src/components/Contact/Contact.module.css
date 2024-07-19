@@ -1,0 +1,36 @@
+/* src/components/Contact/Contact.module.css */
+
+.contact {
+  background-color: black; /* Black background for the section */
+  color: white; /* White text color */
+  padding: 2rem 0;
+}
+
+.contactForm {
+  background-color: #333; /* Dark background for the form */
+  color: white; /* White text color inside the form */
+  border-color: #444; /* Dark border color for the form */
+}
+
+.btn-primary {
+  background-color: #ffc107; /* Yellow button color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.form-label {
+  color: white; /* White color for form labels */
+}
+
+.form-control {
+  background-color: #555; /* Dark background for input fields */
+  color: white; /* White text color for input fields */
+  border: 1px solid #666; /* Slightly lighter border for input fields */
+}
+
+.form-control::placeholder {
+  color: #aaa; /* Light placeholder text */
+}

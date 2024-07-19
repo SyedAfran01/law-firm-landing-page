@@ -1,0 +1,47 @@
+/* ImageComponent.module.css */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    margin: 10px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Overlay background color */
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .image-name {
+    font-size: 18px; /* Adjust font size */
+    text-align: center;
+    padding: 8px;
+  }
+  

@@ -1,0 +1,77 @@
+/* About.module.css */
+
+.about {
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.carousel {
+  position: relative;
+  width: 80%; 
+  max-width: 1000px;
+  margin: auto; 
+  overflow: hidden;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.card-container {
+  background-color: black;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-description {
+  padding: 10px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border: none;
+  background-color: transparent;
+  padding: 16px;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
