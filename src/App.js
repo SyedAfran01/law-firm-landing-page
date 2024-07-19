@@ -6,8 +6,7 @@ import PracticeArea from './components/PracticeArea/PracticeArea.jsx';
 import AboutUs from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Attorney from './components/Attorney/Attorney.jsx'; // Adjust the path as needed
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Attorney from './components/Attorney/Attorney.jsx'; 
 
 import './App.module.css';
 
